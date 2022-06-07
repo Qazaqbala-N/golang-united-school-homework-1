@@ -4,6 +4,6 @@ import (
 	"github.com/kyokomi/emoji"
 )
 
-func Hello() string{
+func GetMessage() string{
 	return emoji.Sprint("Hello :world_map:!")
 }
